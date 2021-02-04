@@ -1,5 +1,22 @@
 
-/* write you code here */
+/* styling form */
+body{
+    background-color: antiquewhite;
+}
+fieldset{
+  padding: 10px;
+  width: 600px;
+  height: 600;
+  border: brown 3px solid;
+}
+input,select{
+    width: 500px;
+    height: 30px;
+} 
+.submit{
+    background-color: rgb(51, 40, 197);
+    color: cornsilk;
+}
 
 
 
