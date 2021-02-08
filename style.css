@@ -2,21 +2,37 @@
 /* styling form */
 body{
     background-color: antiquewhite;
+    margin:10px;
+}
+header{
+    background-image: url(./img/background.jpg) ;
+    width: 650px;
+    height: 400px;
+    color:#e7dede;
+    text-align:center;
+    font-size: 2em;
+
+
 }
 fieldset{
   padding: 10px;
   width: 600px;
   height: 600;
-  border: brown 3px solid;
+  border: rgb(15, 5, 5) 3px solid;
 }
 input,select{
-    width: 500px;
+    width: 600px;
     height: 30px;
 } 
 .submit{
     background-color: rgb(51, 40, 197);
     color: cornsilk;
+    width:608px ;
 }
+select[type="radio"]{
+    width: 608px;
+}
+
 
 
 
